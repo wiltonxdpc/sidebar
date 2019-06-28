@@ -18,10 +18,10 @@ body{font-size: 14px;}
 .sidebar-menu .treeview-menu{display:none;list-style:none;padding:0;margin:0;padding-left:5px}
 .sidebar-menu .treeview-menu .treeview-menu{padding-left:20px}
 .sidebar-menu .treeview-menu > li{margin:0}
-.sidebar-menu .treeview-menu > li > a{padding:5px 5px 5px 15px;display:block;font-size:14px;color:#8aa4af}
+.sidebar-menu .treeview-menu > li > a{padding:5px 5px 5px 15px;display:block;font-size:14px;color:red;}
 .sidebar-menu .treeview-menu > li > a > .fa{width:20px}
 .sidebar-menu .treeview-menu > li > a > .fa-angle-left,.sidebar-menu .treeview-menu > li > a > .fa-angle-down{width:auto}
-.sidebar-menu .treeview-menu > li.active > a,.sidebar-menu .treeview-menu > li > a:hover{color:#fff}
+.sidebar-menu .treeview-menu > li.active > a,.sidebar-menu .treeview-menu > li > a:hover{color:red;}
 
 .img{
   
@@ -36,7 +36,7 @@ body{font-size: 14px;}
   
   padding-left: -80px;
 }
-@media (min-width:768px){
+@media (min-width:1024px){
 .img{
   position: relative;
   
@@ -53,7 +53,7 @@ body{font-size: 14px;}
 }
 }
   
-@media (min-width:768px){
+@media (min-width:1024px){
 	body{font-size: 16	px;}
 	.sidebar-left{position:absolute;top:0;left:0;bottom:0;width:220px;height:100%;z-index:2016}
 	
