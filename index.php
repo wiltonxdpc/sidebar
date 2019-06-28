@@ -1,6 +1,4 @@
-<?php 
-require'sidebar.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +15,9 @@ require'sidebar.php';
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
 </head>
 <body>
-
+<?php 
+require'sidebar.php';
+?>
 <div class="container">
  
   <div class="row">
