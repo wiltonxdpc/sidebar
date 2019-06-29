@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
             </button>
                     <div class="circle">
-                    <img class="img" src="logoss.png">
+                    <img class="img" src="logo.png">
             </div>
             <style></style>
           </div>

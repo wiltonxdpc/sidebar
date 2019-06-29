@@ -22,7 +22,7 @@ require'sidebar.php';
  
   <div class="row">
 
-    <div class="col-sm-12" style="left:50px;margin-left:5%;margin-top: 5%;">
+    <div class="col-sm-12" style="left:50px;margin:100px auto;">
     
       <table id="example" class="table table-striped table-bordered">
         <thead>
