@@ -1,16 +1,18 @@
-Tab Styles Inspiration
-=========
+# WebcamJS is in Maintenance Mode
 
-Some inspiration for tab styles and effects.
+Hey everyone!  WebcamJS v1.x is going into maintenance mode as of Feb 11, 2017.  That means I will only be able to fix critical bugs from here on in.  I will not be adding any new features, or accepting any new PRs into this version.  I am working on an all-new WebcamJS v2.0 implementation, which will feature real-time canvas effects, and plugin drivers for mobile support.
 
-[Article on Codrops](http://tympanus.net/codrops/?p=19559)
+See [DOCS.md](https://github.com/jhuckaby/webcamjs/blob/master/DOCS.md) for the v1.x documentation.
 
-[Demo](http://tympanus.net/Development/TabStylesInspiration/)
+Looking for a good alternative to WebcamJS?  Please check out [JpegCamera](https://github.com/amw/jpeg_camera) by [Adam Wróbel](https://github.com/amw).  It has many advanced features that WebcamJS is lacking (for example, upload multiple photos at once, retry failed uploads, CSRF tokens, make sure camera is ready), and has a very clean and object-oriented design.
 
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
+## Troubleshooting
 
-Read more here: [License](http://tympanus.net/codrops/licensing/)
+Having trouble?  See if your webcam is actually working in your browser:
 
-Iconfont by [Pixeden](http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set)
-
-[© Codrops 2014](http://www.codrops.com)
+- Try the basic demo: https://pixlcore.com/demos/webcamjs/demos/basic.html
+- Try this HTML5 Webcam test page: https://simpl.info/getusermedia/
+- And this one: https://davidwalsh.name/demo/camera.php
+- Try this Flash Webcam test page: https://www.onlinemictest.com/webcam-test-in-adobe-flash
+- Try jQuery Webcam: http://www.xarg.org/project/jquery-webcam-plugin/
+- Try JpegCamera: https://github.com/amw/jpeg_camera
