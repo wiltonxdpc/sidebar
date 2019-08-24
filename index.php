@@ -17,16 +17,16 @@
 	$Mailer->SMTPSecure = 'ssl';
 	
 	//nome do servidor
-	$Mailer->Host = 'nome-do-servidor';
+	$Mailer->Host = 'smtp.gmail.com';
 	//Porta de saida de e-mail 
-	$Mailer->Port = 465;
+	$Mailer->Port = 587;
 	
 	//Dados do e-mail de saida - autenticação
-	$Mailer->Username = 'usuario@dominio.com';
-	$Mailer->Password = 'senha';
+	$Mailer->Username = 'wiltonricardo6@gmail.com';
+	$Mailer->Password = '@wiltonxdK1';
 	
 	//E-mail remetente (deve ser o mesmo de quem fez a autenticação)
-	$Mailer->From = 'usuario@dominio.com';
+	$Mailer->From = 'wiltonricardo6@gmail.com';
 	
 	//Nome do Remetente
 	$Mailer->FromName = 'Celke';
@@ -41,7 +41,7 @@
 	$Mailer->AltBody = 'conteudo do E-mail em texto';
 	
 	//Destinatario 
-	$Mailer->AddAddress('cliente@dominio.com');
+	$Mailer->AddAddress('wiltonricardo2@outlook.com');
 	
 	if($Mailer->Send()){
 		echo "E-mail enviado com sucesso";
