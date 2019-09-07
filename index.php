@@ -20,7 +20,7 @@ $connection = new PDO($dsn, $username, $password);
    {
      echo "Database connection success.";
    }
-if(pg_select_db($con,"d8g5vkl3hk84ai")){
+if(pg_select_db($connection,"d8g5vkl3hk84ai")){
 	echo "certo";
 }	
 $query = "INSERT INTO Users (nome) VALUES ('wilton')"; 
