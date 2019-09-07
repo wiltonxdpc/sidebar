@@ -1,5 +1,5 @@
 <?php
-$dsn = 'host=ec2-23-23-92-204.compute-1.amazonaws.com
+$dsn = 'pgsql:host=ec2-23-23-92-204.compute-1.amazonaws.com
 ;dbname=d8g5vkl3hk84ai';
 $username = 'movgpzvubxrkru';
 $password = 'f4117a6654430998b88fafb8fff17397b647ae20fd38b526e3df636f4edf3d54';
