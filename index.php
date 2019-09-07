@@ -12,12 +12,14 @@ return true;
 }
 else
 {
-return false;
+return "ruim";
 }
 }
 function cadastra($db, $tabela) { 
 pg_select_db($this->con,$db);
+	
 $query = "INSERT INTO $tabela (nome) VALUES ('$this->nome')"; 
+	
 pg_query($this->con,$query);
 }
 }
