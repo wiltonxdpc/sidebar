@@ -8,11 +8,11 @@ $this->nome = $nome;
 function conecta($local, $usuario, $senha) {     
 if($this->con=pg_connect("$local","$usuario","$senha"))
 {
-return true;
+echo  "bom";
 }
 else
 {
-return "ruim";
+echo "ruim";
 }
 }
 function cadastra($db, $tabela) { 
