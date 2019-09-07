@@ -9,7 +9,7 @@ $connection = new PDO($dsn, $username, $password);
 } catch(PDOException $e) {
 
 }
-if(pg_connect("host=ec2-23-23-92-204.compute-1.amazonaws.com","movgpzvubxrkru","f4117a6654430998b88fafb8fff17397b647ae20fd38b526e3df636f4edf3d54")){
+if(pg_connect("host='host=ec2-23-23-92-204.compute-1.amazonaws.com' user='movgpzvubxrkru' password='f4117a6654430998b88fafb8fff17397b647ae20fd38b526e3df636f4edf3d54' dbname='d8g5vkl3hk84ai'")){
 			echo "besta";
 		}else{
 			echo "otario";
